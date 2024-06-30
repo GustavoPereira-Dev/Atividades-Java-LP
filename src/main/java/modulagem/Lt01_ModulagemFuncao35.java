@@ -1,6 +1,6 @@
 package modulagem;
 /*
-  Descrição: Receba 2 números inteiros, verifique qual o maior entre eles. Calcule e mostre o resultado da somat�ria dos números ímpares entre esses valores(em função)
+  Descrição: Receba 2 números inteiros, verifique qual o maior entre eles. Calcule e mostre o resultado da somatória dos números ímpares entre esses valores(em função)
   Data: 12/03/2024
   Programador: Gustavo Pereira
   Versão: 0.1
@@ -23,7 +23,7 @@ public class Lt01_ModulagemFuncao35 {
 			indx--;
 		}
 		
-		JOptionPane.showMessageDialog(null,"A somat�ria de n�meros �mpares entre os dois é: " + res);
+		JOptionPane.showMessageDialog(null,"A somatória de números ímpares entre os dois é: " + res);
 		
 	}
 	

@@ -98,9 +98,7 @@ public class ClasseMetodos {
 		
 		msg = pesquisaJogo(jogo,id, i + 1);
 		
-		System.out.println(jogo[i].id + " " + id);
-		if(jogo[i].id == id) {
-			
+		if(jogo[i].id == id) {	
 			msg = "Jogo encontrado na lista!";
 		}
 		

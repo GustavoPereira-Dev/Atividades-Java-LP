@@ -1,6 +1,6 @@
 package modulagem;
 /*
-  Descrição: Receba um valor inteiro. Verifique e mostre se � divis�vel por 2 e 3 (em procedimento)
+  Descrição: Receba um valor inteiro. Verifique e mostre se é divisível por 2 e 3 (em procedimento)
   Data: 12/03/2024
   Programador: Gustavo Pereira
   Versão: 0.1

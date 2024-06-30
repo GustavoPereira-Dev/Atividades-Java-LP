@@ -1,6 +1,6 @@
 package estruturasequencial;
 /*
-  Descrição: Receba 2 n�meros inteiros. Verifique e mostre todos os números primos existentes entre eles
+  Descrição: Receba 2 números inteiros. Verifique e mostre todos os números primos existentes entre eles
   Data: 05/03/2024
   Programador: Gustavo Pereira
   Versão: 0.1

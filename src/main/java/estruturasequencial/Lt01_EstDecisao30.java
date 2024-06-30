@@ -12,10 +12,10 @@ public class Lt01_EstDecisao30 {
 		int anoNasc, mesNasc, diaNasc, anoAt, mesAt, diaAt, anoRes, mesRes, diaRes;
 		
 		anoNasc = Integer.parseInt(JOptionPane.showInputDialog("Digite o ano de nascimento: "));
-		mesNasc = Integer.parseInt(JOptionPane.showInputDialog("Digite o m�s de nascimento: "));
+		mesNasc = Integer.parseInt(JOptionPane.showInputDialog("Digite o mês de nascimento: "));
 		diaNasc = Integer.parseInt(JOptionPane.showInputDialog("Digite o dia de nascimento: "));
 		anoAt = Integer.parseInt(JOptionPane.showInputDialog("Digite o ano atual: "));
-		mesAt = Integer.parseInt(JOptionPane.showInputDialog("Digite o m�s atual: "));
+		mesAt = Integer.parseInt(JOptionPane.showInputDialog("Digite o mês atual: "));
 		diaAt = Integer.parseInt(JOptionPane.showInputDialog("Digite o dia atual: "));
 		
 		if(mesAt - mesNasc < 0) {

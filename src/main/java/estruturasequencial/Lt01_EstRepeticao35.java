@@ -1,6 +1,6 @@
 package estruturasequencial;
 /*
-  Descrição: Receba 2 n�meros inteiros, verifique qual o maior entre eles. Calcule e mostre o resultado da somat�ria dos números ímpares entre esses valores
+  Descrição: Receba 2 números inteiros, verifique qual o maior entre eles. Calcule e mostre o resultado da somatória dos números ímpares entre esses valores
   Data: 05/03/2024
   Programador: Gustavo Pereira
   Versão: 0.1
@@ -27,7 +27,7 @@ public class Lt01_EstRepeticao35 {
 			indx--;
 		}
 		
-		JOptionPane.showMessageDialog(null,"A somat�ria de n�meros �mpares entre os dois é: " + res);
+		JOptionPane.showMessageDialog(null,"A somatória de números ímpares entre os dois é: " + res);
 		
 	}
 }

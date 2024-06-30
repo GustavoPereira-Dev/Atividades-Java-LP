@@ -1,6 +1,6 @@
 package modulagem;
 /*
-  Descrição: Receba 2 �ngulos de um tri�ngulo. Calcule e mostre o valor do 3� �ngulo (em procedimento)
+  Descrição: Receba 2 �ngulos de um triângulo. Calcule e mostre o valor do 3º ângulo (em procedimento)
   Data: 12/03/2024
   Programador: Gustavo Pereira
   Versão: 0.1

@@ -17,7 +17,7 @@ public class Lt01_EstRepeticao42 {
 			num2 = num2 + 2;
 		}
 		
-		JOptionPane.showMessageDialog(null,"O resultado dessa sequ�ncia até 50 é: " + res);
+		JOptionPane.showMessageDialog(null,"O resultado dessa sequência até 50 é: " + res);
 		
 	}
 }

@@ -18,8 +18,8 @@ public class Lt01_EstRepeticao44 {
 			pot = pot + (base * base);
 		}
 		
-		// Ou utilizar o Math.Pow (com n�meros double)
-		JOptionPane.showMessageDialog(null,"O resultado dessa potência é: " + pot);
+		// Ou utilizar o Math.Pow (que retorna número double)
+		// JOptionPane.showMessageDialog(null,"O resultado dessa potência é: " + pot);
 		
 	}
 }

@@ -9,7 +9,7 @@ package modulagem;
 import javax.swing.JOptionPane;
 public class Lt01_ModulagemFuncao37 {
 	public static void main(String args[]) {
-		int num, ant1 = 0, ant2 = 0, indx = 0, fib;
+		int num, ant1 = 1, ant2 = 0, indx = 1, fib;
 		
 		num = Integer.parseInt(JOptionPane.showInputDialog("Digite o número para Fibonacci: "));
 		

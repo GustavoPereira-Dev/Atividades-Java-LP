@@ -1,6 +1,6 @@
 package modulagem;
 /*
-  Descrição: Receba o n�mero da base e do expoente. Calcule e mostre o valor da pot�ncia (em função)
+  Descrição: Receba o número da base e do expoente. Calcule e mostre o valor da pot�ncia (em função)
   Data: 12/03/2024
   Programador: Gustavo Pereira
   Versão: 0.1
@@ -16,8 +16,8 @@ public class Lt01_ModulagemFuncao44 {
 		
 		pot = calcularPotencia(base, exp);
 		
-		// Ou utilizar o Math.Pow (com n�meros double)
-		JOptionPane.showMessageDialog(null,"O resultado dessa pot�ncia é: " + pot);
+		// Ou utilizar o Math.Pow (com números double)
+		JOptionPane.showMessageDialog(null,"O resultado dessa potência é: " + pot);
 		
 	}
 	

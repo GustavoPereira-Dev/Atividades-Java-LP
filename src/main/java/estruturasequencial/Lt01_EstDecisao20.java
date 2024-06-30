@@ -21,7 +21,7 @@ public class Lt01_EstDecisao20 {
 		if(delta > 0) {
 			x0 = (b + Math.sqrt(delta)) / (2 * a);
 			x1 = (b - Math.sqrt(delta)) / (2 * a);
-			JOptionPane.showMessageDialog(null,"O resultado de x0 � " + x0 + " e do x1 � " + x1);
+			JOptionPane.showMessageDialog(null,"O resultado de x0 é" + x0 + " e do x1 é " + x1);
 		} else {
 			JOptionPane.showMessageDialog(null,"Raiz inexistente");
 		}		

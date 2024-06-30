@@ -1,6 +1,6 @@
 package modulagem;
 /*
-  Descrição: Calcule e mostre a s�rie 1 ^ 2/4 + 3/9 ^ 4/16 + 5/25 + ... + 15/225 (em função)
+  Descrição: Calcule e mostre a série 1 ^ 2/4 + 3/9 ^ 4/16 + 5/25 + ... + 15/225 (em função)
   Data: 12/03/2024
   Programador: Gustavo Pereira
   Versão: 0.1

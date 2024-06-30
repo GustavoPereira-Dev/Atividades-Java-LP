@@ -15,9 +15,9 @@ public class Lt01_EstDecisao19 {
 		num2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo n�mero: "));
 		
 		if(num1 > num2) {
-			JOptionPane.showMessageDialog(null,"O maior n�mero � o primeiro com valor: " + num1);
+			JOptionPane.showMessageDialog(null,"O maior número é o primeiro com valor: " + num1);
 		} else {
-			JOptionPane.showMessageDialog(null,"O maior n�mero � o segundo com valor: " + num2);
+			JOptionPane.showMessageDialog(null,"O maior número é o segundo com valor: " + num2);
 		}
 		
 	}

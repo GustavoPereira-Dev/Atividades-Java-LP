@@ -11,12 +11,12 @@ public class Lt01_EstDecisao24 {
 	public static void main(String args[]) {
 		int num;
 		
-		num = Integer.parseInt(JOptionPane.showInputDialog("Digite o n�mero: "));
+		num = Integer.parseInt(JOptionPane.showInputDialog("Digite o número: "));
 		
 		if(num % 2 == 0 && num % 3 == 0) {
-			JOptionPane.showMessageDialog(null,"O valor � divis�vel por 2 e 3: ");
+			JOptionPane.showMessageDialog(null,"O valor é divisível por 2 e 3: ");
 		} else {
-			JOptionPane.showMessageDialog(null,"O valor n�o � divis�vel por 2 e 3: ");
+			JOptionPane.showMessageDialog(null,"O valor não é divisível por 2 e 3: ");
 		}
 		
 	}

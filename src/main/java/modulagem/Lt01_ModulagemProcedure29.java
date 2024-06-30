@@ -1,6 +1,6 @@
 package modulagem;
 /*
-  Descrição: Receba o tipo de investimento (1 = poupan�a e 2 = renda fixa) e o valor do investimento. Calcule e mostre o valor corrigido em 30 dias sabendo que a poupan�a = 3% e a renda fixa = 5%. Demais tipos não ser�o considerados (em procedimento)
+  Descrição: Receba o tipo de investimento (1 = poupança e 2 = renda fixa) e o valor do investimento. Calcule e mostre o valor corrigido em 30 dias sabendo que a poupan�a = 3% e a renda fixa = 5%. Demais tipos não serão considerados (em procedimento)
   Data: 12/03/2024
   Programador: Gustavo Pereira
   Versão: 0.1

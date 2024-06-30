@@ -1,6 +1,6 @@
 package modulagem;
 /*
-  Descrição: Receba os 2 n�meros inteiros. Calcule e mostre a soma dos quadrados (em procedimento)
+  Descrição: Receba os 2 números inteiros. Calcule e mostre a soma dos quadrados (em procedimento)
   Data: 12/03/2024
   Programador: Gustavo Pereira
   Versão: 0.1

@@ -12,7 +12,7 @@ public class Lt01_ModulagemFuncao36 {
 		int num, indx = 0, fat = 0, indxFat;
 		float seq = 0;
 		
-		num = Integer.parseInt(JOptionPane.showInputDialog("Digite o n�mero para sequência de fatorial: "));
+		num = Integer.parseInt(JOptionPane.showInputDialog("Digite o número para sequência de fatorial: "));
 		
 		if(num < 2) {
 			fat = 1;
@@ -29,7 +29,7 @@ public class Lt01_ModulagemFuncao36 {
 			fat = 0;
 		}
 		
-		JOptionPane.showMessageDialog(null,"O resultado da sequ�ncia de fatorial é: " + seq);
+		JOptionPane.showMessageDialog(null,"O resultado da sequência de fatorial é: " + seq);
 
 	}
 	
