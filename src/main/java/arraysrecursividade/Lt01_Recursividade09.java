@@ -1,10 +1,10 @@
 package arraysrecursividade;
 
 /*
-Descrição: Receba um número N. Calcule e mostre a série 1 + 1/1! + 1/2! + ... + 1/N!(em função recursiva)
-Data: 29/06/2024
-Programador: Gustavo Pereira
-Versão: 0.1
+	Descrição: Receba um número N. Calcule e mostre a série 1 + 1/1! + 1/2! + ... + 1/N!(em função recursiva)
+	Data: 29/06/2024
+	Programador: Gustavo Pereira
+	Versão: 0.1
 */
 
 import javax.swing.JOptionPane;

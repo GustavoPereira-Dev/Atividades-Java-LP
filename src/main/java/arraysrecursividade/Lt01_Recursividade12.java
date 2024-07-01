@@ -1,10 +1,11 @@
 package arraysrecursividade;
 /*
-Descrição: Calcule a quantidade de grãos contidos em um tabuleiro de xadrez onde: Casa: 1 2 3 4 ... 64 Qdte: 1 2 4 8 ... N (em função recursiva)
-Data: 29/06/2024
-Programador: Gustavo Pereira
-Versão: 0.1
+	Descrição: Calcule a quantidade de grãos contidos em um tabuleiro de xadrez onde: Casa: 1 2 3 4 ... 64 Qdte: 1 2 4 8 ... N (em função recursiva)
+	Data: 30/06/2024
+	Programador: Gustavo Pereira
+	Versão: 0.1
 */
+import java.math.BigInteger;
 
 public class Lt01_Recursividade12 {
 	public static void main(String args[]) {
@@ -14,14 +15,13 @@ public class Lt01_Recursividade12 {
 		
 	}
 	
-	static int calcGraos(int i) {
-		int gr = 1;
-		if(i == 0) {
-			return gr;
+	static BigInteger calcGraos(int i) {
+		BigInteger gr = new BigInteger("0");
+		if(i == 1) {
+			return new BigInteger((i * 2) + "");
 		}
 		
-		System.out.println(gr);
-		gr = (gr * 2) + calcGraos(i - 1);
+		gr = calcGraos(i-1).multiply(new BigInteger("2"));
 		return gr;
 	}
 }

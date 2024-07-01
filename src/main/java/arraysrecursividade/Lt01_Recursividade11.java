@@ -1,9 +1,9 @@
 package arraysrecursividade;
 /*
-Descrição: Receba 100 números inteiros reais. Verifique e mostre o maior e o menor valor. Obs.: somente valores positivos(em função recursiva)
-Data: 29/06/2024
-Programador: Gustavo Pereira
-Versão: 0.1
+	Descrição: Receba 100 números inteiros reais. Verifique e mostre o maior e o menor valor. Obs.: somente valores positivos(em função recursiva)
+	Data: 29/06/2024
+	Programador: Gustavo Pereira
+	Versão: 0.1
 */
 import javax.swing.JOptionPane;
 public class Lt01_Recursividade11{

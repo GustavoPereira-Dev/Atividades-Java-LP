@@ -16,7 +16,7 @@ public class Lt01_VariaveisHomogeneas03 {
 		calculaVetor(teste1);
 	}
 	
-	static int[ ] adicionarValores(int vt[ ]) {
+	static int[] adicionarValores(int vt[]) {
 		int i = 0;
 		
 		for(i = 0; i < 10; i++) {
@@ -26,11 +26,11 @@ public class Lt01_VariaveisHomogeneas03 {
 	}
 	
 	 static void calculaVetor(int vt[ ]){
-		 int[ ] teste2 = new int[10];
+		 int[] teste2 = new int[10];
 		 int i = 0;
 		 
 		 for(i = 0; i < 10; i++) {
-			if(i % 2 == 0) {
+			if(vt[i] % 2 == 0) {
 				teste2[i] += vt[i] * 5;
 			} else {
 				teste2[i] += vt[i] + 5;

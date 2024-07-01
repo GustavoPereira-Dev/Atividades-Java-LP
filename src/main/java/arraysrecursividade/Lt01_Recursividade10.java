@@ -10,7 +10,7 @@ Versão: 0.1
 import javax.swing.JOptionPane;
 public class Lt01_Recursividade10 {
 	public static void main(String args[]) {
-		int num, fib;
+		int num, fib = 0;
 		
 		num = Integer.parseInt(JOptionPane.showInputDialog("Digite o número para Fibonacci: "));
 		

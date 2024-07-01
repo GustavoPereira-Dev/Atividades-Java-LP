@@ -7,11 +7,14 @@ package modulagem;
 */
 
 import javax.swing.JOptionPane;
+import java.math.BigInteger;
+
 public class Lt01_ModulagemFuncao39 {
 	public static void main(String args[]) {
-		int casa, graos = 1;
+		int casa;
+		BigInteger graos = new BigInteger("1");
 		
-		for(casa = 1; casa <= 64; casa++) {
+		for(casa = 1; casa < 64; casa++) {
 			graos = calcGraos(graos);
 		}
 		
@@ -19,7 +22,7 @@ public class Lt01_ModulagemFuncao39 {
 		
 	}
 	
-	static int calcGraos(int gr) {
-		return gr * 2;
+	static BigInteger calcGraos(BigInteger gr) {
+		return gr.multiply(new BigInteger("2"));
 	}
 }

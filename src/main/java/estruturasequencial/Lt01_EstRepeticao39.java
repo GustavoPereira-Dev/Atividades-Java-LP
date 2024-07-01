@@ -7,12 +7,14 @@ package estruturasequencial;
 */
 
 import javax.swing.JOptionPane;
+import java.math.BigInteger;
 public class Lt01_EstRepeticao39 {
 	public static void main(String args[]) {
-		int casa, graos = 1;
+		int casa;
+		BigInteger graos = new BigInteger("1");
 		
-		for(casa = 1; casa <= 64; casa++) {
-			graos = graos * 2;
+		for(casa = 1; casa < 64; casa++) {
+			graos = graos.multiply(new BigInteger("2"));
 		}
 		
 		JOptionPane.showMessageDialog(null,"O resultado dos grãos é: " + graos);
