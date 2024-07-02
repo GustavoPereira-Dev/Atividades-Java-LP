@@ -43,6 +43,4 @@ public class Lt01_VariaveisHomogeneas06 {
 		}
 	}
 	
-	// static tipo[ ] vetor(){}
-	
 }

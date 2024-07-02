@@ -16,7 +16,7 @@ public class Lt01_VariaveisHomogeneas11 {
 		vt = adicionarValores(vt);
 		vt = bubbleSort(vt);
 		
-		vProc = Integer.parseInt(JOptionPane.showInputDialog("Digite o valro procurado"));
+		vProc = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor procurado"));
 		
 		while(inicio <= fim) {
 			meio = (inicio + fim) / 2;

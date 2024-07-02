@@ -14,7 +14,7 @@ public class Lt01_EstRepeticao32 {
 		num = Integer.parseInt(JOptionPane.showInputDialog("Digite o número de fatorial: "));
 		
 		for(i = num; i > 1; i--) {
-			fat = fat + (num * (num - 1));
+			fat *= (num * (num - 1));
 		}
 		
 		JOptionPane.showMessageDialog(null,"O resultado do fatorial " + num + " é: " + fat);

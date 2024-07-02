@@ -9,7 +9,7 @@ package estruturasequencial;
 import javax.swing.JOptionPane;
 public class Lt01_EstRepeticao42 {
 	public static void main(String args[]) {
-		int num1, num2 = 1;
+		float num1, num2 = 1;
 		float res = 0;
 		
 		for(num1 = 1; num1 <= 50; num1++) {

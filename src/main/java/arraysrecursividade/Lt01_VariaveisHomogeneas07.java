@@ -36,6 +36,7 @@ public class Lt01_VariaveisHomogeneas07 {
 		
 		JOptionPane.showMessageDialog(null, "Soma dos ímpares: " + sImp);
 		
+		if(cMed == 0) return 0;
 		return med / cMed;
 	}
 	// static tipo[ ] vetor(){}

@@ -14,7 +14,7 @@ public class Lt01_ModulagemFuncao32 {
 		num = Integer.parseInt(JOptionPane.showInputDialog("Digite o número de fatorial: "));
 		
 		for(i = num; i > 1; i--) {
-			fat = fat + calcFat(num);
+			fat *= calcFat(num);
 		}
 		
 		JOptionPane.showMessageDialog(null,"O resultado do fatorial " + num + " é: " + fat);

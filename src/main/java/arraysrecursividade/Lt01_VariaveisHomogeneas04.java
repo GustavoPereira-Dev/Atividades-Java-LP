@@ -3,7 +3,7 @@ package arraysrecursividade;
   Descrição: Coletando valor de 5 quantidades vendidas e o preço do produto, calcule o total de venda dos produtos e a comissão de 5% da venda deles
   Data: 26/03/2024
   Programador: Gustavo Pereira
-  Vers�o: 0.1
+  Versão: 0.1
 */
 
 import javax.swing.JOptionPane;

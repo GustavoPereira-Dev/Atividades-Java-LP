@@ -9,7 +9,7 @@ package modulagem;
 import javax.swing.JOptionPane;
 public class Lt01_ModulagemFuncao42 {
 	public static void main(String args[]) {
-		int num1, num2 = 1;
+		float num1, num2 = 1;
 		float res = 0;
 		
 		for(num1 = 1; num1 <= 50; num1++) {
@@ -21,7 +21,7 @@ public class Lt01_ModulagemFuncao42 {
 		
 	}
 	
-	static float calcSerie(int n1, int n2) {
+	static float calcSerie(float n1, float n2) {
 		return n1 / n2;
 	}
 }

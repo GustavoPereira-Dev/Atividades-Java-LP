@@ -5,7 +5,7 @@ package arraysrecursividade;
   b. A média dos valores.
   Data: 26/03/2024
   Programador: Gustavo Pereira
-  Vers�o: 0.1
+  Versão: 0.1
 */
 
 import javax.swing.JOptionPane;
@@ -39,6 +39,5 @@ public class Lt01_VariaveisHomogeneas08 {
 		
 		return med / 100;
 	}
-	// static tipo[ ] vetor(){}
 	
 }
