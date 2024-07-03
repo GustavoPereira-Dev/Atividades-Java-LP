@@ -1,16 +1,11 @@
 package arraysrecursividade;
 /*
-  Descrição: Fazer uma matriz 8x8 com o seguinte formato:
-  1 1 1 1 1 1 1 1
-  1 2 2 2 2 2 2 1
-  1 2 3 3 3 3 2 1
-  1 2 3 4 4 3 2 1
-  1 2 3 3 3 3 2 1
-  1 2 2 2 2 2 2 1
-  1 1 1 1 1 1 1 1
-  Data: 26/03/2024
-  Programador: Gustavo Pereira
-  Versão: 0.1
+	Descrição: Carregar códigos das peças em um tabuleiro de xadrez, onde:
+	Código	    1		2		3		4		5		6		7
+	Peça	   Peão    Torre   Bispo  Cavalo  Rainha   Rei     Vazio
+	Data: 26/03/2024
+	Programador: Gustavo Pereira
+	Versão: 0.1
 */
 
 import javax.swing.JOptionPane;
@@ -26,16 +21,16 @@ public class Lt01_VariaveisHomogeneas16 {
 		
 		for(i = 0; i < 8; i++) {
 			for(j = 0; j < 8; j++) {
-				mat[i][j] = Integer.parseInt(JOptionPane.showInputDialog("Digite o " + (i + 1) + "� valor na linha e" + (j + 1) + "� na coluna para o tabuleiro:"));
+				mat[i][j] = Integer.parseInt(JOptionPane.showInputDialog("Digite o " + (i + 1) + "º valor na linha e" + (j + 1) + "º na coluna para o tabuleiro:"));
 				pec = mat[i][j] - 1;
-				if(pec >= 0 || pec < 8) {
-					quantPec[pec] += quantPec[pec] + 1;
+				if(pec >= 0 && pec < 7) {
+					quantPec[pec] += 1;
 				}
 			} 
 		}
 		
 		for(i = 0; i < 7; i++) {
-			JOptionPane.showMessageDialog(null,"O valor de pe�as da se��o " + i + "�: " + quantPec[i]);
+			JOptionPane.showMessageDialog(null,"O valor de peças da seção " + (i + 1) + "é: " + quantPec[i]);
 		}
 	}
 	
