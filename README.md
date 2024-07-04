@@ -6,3 +6,4 @@
 <p> Modulagem - Funções, Procedures, etc. </p>
 <p> Arrays e Recursividade - Manipulação de Vetores, Matrizes (Arrays) e funções recursivas </p>
 <p> Instância Classe - Utilização de mais de uma classe para os exercícios seguindo a divisão de ClassePrincipal(main), ClasseMetodos e outras classes que servirão para objetos de instâncias de variáveis </p>
+<p> Para acessá-los entre em <code>src/main/java</code> </p>

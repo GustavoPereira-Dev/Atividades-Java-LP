@@ -6,7 +6,7 @@ package arraysrecursividade;
 	Versão: 0.1
 */
 
-public class Lt01_Recursividade26 {
+public class Lt01_RecExtra10 {
 	public static void main(String args[]) {
 		System.out.println(quantidadeAnos(1.10, 1.5));
 	}

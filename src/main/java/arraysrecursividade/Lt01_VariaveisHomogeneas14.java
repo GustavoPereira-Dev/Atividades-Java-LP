@@ -16,8 +16,8 @@ public class Lt01_VariaveisHomogeneas14 {
 	}
 	
 	static void adicionarValores() {
-		int soma = 0;
-		int[][] Mat = new int [8][8];
+		long soma = 0;
+		long[][] Mat = new long [8][8];
 	
 		 for(int i = 0; i < 8; i += 2) {
 	 		for(int j = 0; j < 8; j++) {
@@ -32,8 +32,8 @@ public class Lt01_VariaveisHomogeneas14 {
 	      		}
 	      		
 	      		if(i != 6) {
-					Mat[i + 2][j] = Mat[i][j];
-					Mat[i + 3][j] = Mat[i + 1][j];
+					Mat[i + 2][0] = Mat[i][j] + 1;
+					Mat[i + 3][0] = Mat[i + 1][j] * 2;
 				}
 	 		}
 	 		

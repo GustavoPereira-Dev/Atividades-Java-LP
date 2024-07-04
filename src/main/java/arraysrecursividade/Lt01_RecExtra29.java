@@ -10,7 +10,7 @@ package arraysrecursividade;
 */
 
 import javax.swing.JOptionPane;
-public class Lt01_Recursividade33 {
+public class Lt01_RecExtra29 {
 	public static void main(String args[]) {
 		int[][] mt = new int[8][8];
 		int [] quantPec = new int[7];

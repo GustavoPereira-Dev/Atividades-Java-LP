@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 	Programador: Gustavo Pereira
 	Versão: 0.1
 */
-public class Lt01_Recursividade20 {
+public class Lt01_RecExtra20 {
 	public static void main(String args[]) {
 		int[] vt = new int[50], res = new int[2];
 		vt = lerVetor(vt, 9);

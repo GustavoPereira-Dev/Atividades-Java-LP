@@ -1,14 +1,14 @@
 package arraysrecursividade;
 
 /*
-Descrição: Receba 2 Receba um número inteiro. Calcule e mostre a série de Fibonacci at� o seu Nºésimo termo(em função recursiva)
+Descrição: Receba um número inteiro. Calcule e mostre a série de Fibonacci até o seu Nºésimo termo(em função recursiva)
 Data: 29/06/2024
 Programador: Gustavo Henrique
 Versão: 0.1
 */
 
 import javax.swing.JOptionPane;
-public class Lt01_Recursividade10 {
+public class Lt01_RecExtra05 {
 	public static void main(String args[]) {
 		int num, fib = 0;
 		

@@ -10,7 +10,7 @@ package arraysrecursividade;
 
 import javax.swing.JOptionPane;
 
-public class Lt01_Recursividade16 {
+public class Lt01_RecExtra16 {
 	public static void main(String args[]) {
 		int i;
 		int[] vt1 = new int[10], vt2 = new int[10];

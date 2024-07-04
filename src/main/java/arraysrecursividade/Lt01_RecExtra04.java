@@ -8,7 +8,7 @@ Versão: 0.1
 */
 
 import javax.swing.JOptionPane;
-public class Lt01_Recursividade08 {
+public class Lt01_RecExtra04 {
 	public static void main(String args[]) {
 		int num1, num2;
 		
@@ -31,7 +31,6 @@ public class Lt01_Recursividade08 {
 		
 		soma = somatoriaImpar(n1, n2, indx - 1, cont + 1);
 		if(indx % 2 == 1) {
-			
 			soma += indx;
 		}
 		return soma; 

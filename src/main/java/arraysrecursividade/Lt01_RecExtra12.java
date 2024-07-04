@@ -6,7 +6,7 @@ package arraysrecursividade;
 	Versão: 0.1
 */
 
-public class Lt01_Recursividade28 {
+public class Lt01_RecExtra12 {
 	public static void main(String args[]) {
 		System.out.println(calcSerie(50,99));
 	}

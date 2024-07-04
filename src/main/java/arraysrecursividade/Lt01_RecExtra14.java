@@ -8,7 +8,7 @@ package arraysrecursividade;
 */
 import javax.swing.JOptionPane;
 
-public class Lt01_Recursividade14 {
+public class Lt01_RecExtra14 {
 	public static void main(String args[]) {
 	
 		int[] vt = new int[5];

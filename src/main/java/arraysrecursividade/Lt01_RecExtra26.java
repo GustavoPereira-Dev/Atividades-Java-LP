@@ -13,7 +13,7 @@ package arraysrecursividade;
 */
 
 import javax.swing.JOptionPane;
-public class Lt01_Recursividade30 {
+public class Lt01_RecExtra26 {
 	public static void main(String args[]) {
 		int[][] mt = new int[4][4];
 		mt = lerLinhaMatriz(mt,3,64);

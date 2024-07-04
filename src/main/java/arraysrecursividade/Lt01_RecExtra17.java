@@ -8,12 +8,12 @@ package arraysrecursividade;
 
 import javax.swing.JOptionPane;
 
-public class Lt01_Recursividade17 {
+public class Lt01_RecExtra17 {
 	public static void main(String args[]) {
 		int[][] mt = new int[5][2];
 		mt = lerProdutos(mt,4);
 		
-		System.out.println(calcularVendas(mt,4));
+		System.out.println("O resultado final da comissão é: " + (calcularVendas(mt,4) * 0.5));
 		
 		
 	}
@@ -24,7 +24,9 @@ public class Lt01_Recursividade17 {
 			return vendas;
 		}
 		
-		System.out.println("O valor de venda do " + (i + 1) + "º produto é: " + (mt[i][0] * mt[i][1]) + " reais");
+		System.out.println("O valor de venda do " + (i + 1) + "º produto é: " + (mt[i][0] * mt[i][1]) + " de reais");
+		System.out.println("O valor de comissão do " + (i + 1) + "º produto é: " + ((mt[i][0] * mt[i][1]) * 0.5) + " de reais");
+		
 		vendas = (mt[i][0] * mt[i][1]) + calcularVendas(mt, i - 1);;
 		return vendas;
 	}

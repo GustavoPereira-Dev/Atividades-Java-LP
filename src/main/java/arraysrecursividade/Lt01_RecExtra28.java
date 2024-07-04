@@ -16,7 +16,7 @@ package arraysrecursividade;
 */
 
 
-public class Lt01_Recursividade32 {
+public class Lt01_RecExtra28 {
 	public static void main(String args[]) {
 		int[][] mt = new int[8][8];
 		

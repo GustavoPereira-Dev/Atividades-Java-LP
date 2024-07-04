@@ -7,7 +7,7 @@ package arraysrecursividade;
 */
 import java.math.BigInteger;
 
-public class Lt01_Recursividade12 {
+public class Lt01_RecExtra07 {
 	public static void main(String args[]) {
 		System.out.println(calcGraos(64));
 		

@@ -8,7 +8,7 @@ package arraysrecursividade;
 */
 import javax.swing.JOptionPane;
 
-public class Lt01_Recursividade18 {
+public class Lt01_RecExtra18 {
 	public static void main(String args[]) {
 		int[] vt = new int[30];
 		vt = lerVetor(vt,29);

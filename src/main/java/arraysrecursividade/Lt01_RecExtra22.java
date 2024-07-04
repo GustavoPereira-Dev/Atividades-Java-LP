@@ -11,7 +11,7 @@ package arraysrecursividade;
 
 import javax.swing.JOptionPane;
 
-public class Lt01_Recursividade22 {
+public class Lt01_RecExtra22 {
 	public static void main(String args[]) {
 		int[] vt1 = new int[3], vt2 = new int[3], vt3 = new int[6];
 		vt1 = lerVetor(vt1, vt1.length - 1);

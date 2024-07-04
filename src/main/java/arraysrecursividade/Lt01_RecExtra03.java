@@ -8,7 +8,7 @@ Versão: 0.1
 */
 
 import javax.swing.JOptionPane;
-public class Lt01_Recursividade07 {
+public class Lt01_RecExtra03 {
 	public static void main(String args[]) {
 		int num;
 		num = Integer.parseInt(JOptionPane.showInputDialog("Digite o número para tabuada: "));

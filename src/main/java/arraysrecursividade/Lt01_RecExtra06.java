@@ -6,7 +6,7 @@ package arraysrecursividade;
 	Versão: 0.1
 */
 import javax.swing.JOptionPane;
-public class Lt01_Recursividade11{
+public class Lt01_RecExtra06{
 	public static final int LIMITE_VETOR = 5;
 	public static void main(String args[]) {
 		int indx = 0;

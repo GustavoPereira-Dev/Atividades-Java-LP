@@ -1,6 +1,6 @@
 package modulagem;
 /*
-  Descrição: Receba o número da base e do expoente. Calcule e mostre o valor da pot�ncia (em função)
+  Descrição: Receba o número da base e do expoente. Calcule e mostre o valor da potência (em função)
   Data: 12/03/2024
   Programador: Gustavo Pereira
   Versão: 0.1

@@ -8,7 +8,7 @@ package arraysrecursividade;
 */
 
 import javax.swing.JOptionPane;
-public class Lt01_Recursividade25 {
+public class Lt01_RecExtra02 {
 	public static void main(String args[]) {
 		double num;
 		num = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor do fatorial: "));

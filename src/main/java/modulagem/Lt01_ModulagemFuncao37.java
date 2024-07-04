@@ -1,6 +1,6 @@
 package modulagem;
 /*
-  Descrição: Receba 2 Receba um número inteiro. Calcule e mostre a série de Fibonacci at� o seu Nºésimo termo(em função)
+  Descrição: Receba 2 Receba um número inteiro. Calcule e mostre a série de Fibonacci até o seu Nºésimo termo(em função)
   Data: 12/03/2024
   Programador: Gustavo Henrique
   Versão: 0.1

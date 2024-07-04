@@ -9,7 +9,7 @@ package arraysrecursividade;
 
 import javax.swing.JOptionPane;
 
-public class Lt01_Recursividade15 {
+public class Lt01_RecExtra15 {
 	public static void main(String args[]) {
 		int[] vt = new int[4];
 		vt = lerVetores(vt, 3);
