@@ -19,7 +19,7 @@
 	<li> Do "Lt01_VariaveisHomogeneas01" ao "Lt01_VariaveisHomogeneas16" existem códigos com enfoque em manipulação de Array (Vetores e Matrizes Bidimensionais) e, por sua vez, utilizações de laços/loops para isso</li>
 	<li> Do "Lt01_Recursividade01" ao "Lt01_Recursividade05" estão listados códigos que utilizam a funcionalidade da recursão (uma função chamar a se própria com estratégias para não causar chamadas infinitas) </li>
 	<li> Do "Lt01_RecExtra01" ao "Lt01_RecExtra29" estão conversões de códigos que cheguei a fazer na aula de LP que não foram feitas na anterior sobre estruturas de repetições e variáveis homogêneas, tendo manipulação de uma ou mais de uma função recursiva numa funcionalidade e Arrays </li> 
-<ul>
+</ul>
 <p> Instância Classe: Tem a utilização do início do paradigma OOP (Programação Orientada a Objetos), em que uma classe posso coletar atributos (desenvolvidos pelo dev, não somente built-in) para desenvolver objetos com variáveis de instâncias e facilitadores para o desenvolvimento de código </p>
 	<li>Todas as pastas de projs listadas (com exceção da extra_jogos) foram inicialmente desenvolvidas em sala de aula e com algumas correções que cheguei a desenvolver ou adições que coloquei</li>
 	<li>A extra_jogos foi um modelo desenvolvido por mim por uma inspiração externa, utilizando a mesma lógica dos anteriores com algumas adições </li>
