@@ -2,10 +2,17 @@ package instanciaclasse.extra_jogos;
 
 import javax.swing.JOptionPane;
 import java.io.*;
-import java.util.Random;
+//import java.util.Random;
 
 public class ClasseMetodos {
-
+	private static class InstanceHolder {
+		public static ClasseMetodos instancia = new ClasseMetodos();
+	}
+	
+	public static ClasseMetodos getInstancia() {
+		return InstanceHolder.instancia;
+	}
+	
 	public Jogo[] FCadastraJogos(Jogo[] jogo) throws IOException{
 		String txt = "Jogos.txt";
 		int i;

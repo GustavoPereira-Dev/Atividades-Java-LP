@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 import java.io.IOException;
 
 public class ClassePrincipal {
-	static ClasseMetodos m = new ClasseMetodos();
+	static ClasseMetodos m = ClasseMetodos.getInstancia();
 	public static void main(String args[]) throws IOException {
 		
 		Eleitor[] eleitores = new Eleitor[10];

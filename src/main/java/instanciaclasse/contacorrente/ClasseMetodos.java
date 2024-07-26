@@ -7,7 +7,16 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
 import javax.swing.JOptionPane;
+
 public class ClasseMetodos {
+	private static class InstanceHolder {
+		public static ClasseMetodos instancia = new ClasseMetodos();
+	}
+	
+	public static ClasseMetodos getInstancia() {
+		return InstanceHolder.instancia;
+	}
+	
 	public ContaCorrente[] FCadastraContas(ContaCorrente[] cliente) throws IOException {
 		int i;
 		String[] tipoConta = {"1","2","3","4"};

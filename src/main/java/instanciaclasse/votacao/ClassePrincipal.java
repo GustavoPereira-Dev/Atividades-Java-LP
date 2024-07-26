@@ -16,7 +16,7 @@ class ClassePrincipal {   //  CLASSE PRINCIPAL
 		   Votacao2024[] votacao = new Votacao2024[200]; 
 		   
 		   // INSTANCIA DA CLASSE M�TODOS
-		   ClasseMetodos m = new ClasseMetodos();
+		   ClasseMetodos m = ClasseMetodos.getInstancia();
 		   
 		    int i;
 		

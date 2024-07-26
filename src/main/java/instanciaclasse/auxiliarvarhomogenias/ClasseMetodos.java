@@ -1,8 +1,16 @@
 package instanciaclasse.auxiliarvarhomogenias;
 
 import javax.swing.JOptionPane;
+
 import java.util.Random;
 public class ClasseMetodos {
+	private static class InstanceHolder {
+		public static ClasseMetodos instancia = new ClasseMetodos();
+	}
+	
+	public static ClasseMetodos getInstancia() {
+		return InstanceHolder.instancia;
+	}
 	
 	public int[] CarregaVetor(int vt[ ]){
 		int cta;

@@ -12,7 +12,7 @@ class ClassePrincipal {
 	public static void main ( String[] args ) throws IOException {
 	   Aluno[ ] aluno = new Aluno[3]; 
 	   
-	   ClasseMetodos m = new ClasseMetodos();
+	   ClasseMetodos m = ClasseMetodos.getInstancia();
 	   
 	   int i;
 	

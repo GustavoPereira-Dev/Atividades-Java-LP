@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 	Versão: 1
 */
 public class ClassePrincipal {
-	static ClasseMetodos m = new ClasseMetodos();
+	static ClasseMetodos m = ClasseMetodos.getInstancia();
 	public static void main(String args[]) throws IOException {
 		ContaCorrente[] conta = new ContaCorrente[5];
 		MovimentoConta[] movConta = new MovimentoConta[10];

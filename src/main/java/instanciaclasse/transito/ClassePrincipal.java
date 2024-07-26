@@ -14,7 +14,7 @@ class ClassePrincipal {
 	   
 	   Transito[ ] transito = new Transito[5]; 
 	   
-	   ClasseMetodos m = new ClasseMetodos();
+	   ClasseMetodos m = ClasseMetodos.getInstancia();
 	   
 	   int i;
 	

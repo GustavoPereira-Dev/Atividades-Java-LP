@@ -9,7 +9,7 @@ package instanciaclasse.auxiliarvarhomogenias;
 import javax.swing.JOptionPane;
 public class ClassePrincipal {
 	public static void main (String arg [ ]) {
-		ClasseMetodos m = new ClasseMetodos();
+		ClasseMetodos m = ClasseMetodos.getInstancia();
 	      int opc = 0;
 	      String[] tamanho = JOptionPane.showInputDialog("Digite o tamanho do Vetor e da Matriz que deseja ter (Ex: 4 de vetor, 3 e 4 de Matriz ou 3 x 4").split(" ");
 	      int vetor[] = new int[Integer.parseInt(tamanho[0])];

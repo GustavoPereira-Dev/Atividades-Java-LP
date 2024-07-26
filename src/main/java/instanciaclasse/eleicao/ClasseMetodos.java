@@ -9,7 +9,15 @@ import java.util.Arrays;
 import javax.swing.JOptionPane;
 
 public class ClasseMetodos {
-
+	private static class InstanceHolder {
+		public static ClasseMetodos instancia = new ClasseMetodos();
+	}
+	
+	public static ClasseMetodos getInstancia() {
+		return InstanceHolder.instancia;
+	}
+	
+	
 	public Eleitor[] FEleitor (Eleitor[] eleitor) throws IOException{
 		String[] secoes = {"1", "3", "4", "5", "9", "10"};
 		String[] vota1 = {"1","3","4"};

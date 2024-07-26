@@ -6,6 +6,13 @@ import javax.swing.JOptionPane;
 import java.util.Random;
 
 public class ClasseMetodos {
+   private static class InstanceHolder {
+		public static ClasseMetodos instancia = new ClasseMetodos();
+	}
+	
+	public static ClasseMetodos getInstancia() {
+		return InstanceHolder.instancia;
+	}
 	
    public Votacao2024[] FCadastraVotacao (Votacao2024[] votacao) {
 	   int i;

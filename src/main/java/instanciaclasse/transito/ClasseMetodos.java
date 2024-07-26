@@ -4,7 +4,14 @@ import java.io.*;
 import javax.swing.JOptionPane;
 public class ClasseMetodos {
 
-   // FUN��O RECEBENDO REGISTRO aluno E RETORNANDO TIPO ALUNO[]    
+	private static class InstanceHolder {
+		public static ClasseMetodos instancia = new ClasseMetodos();
+	}
+	
+	public static ClasseMetodos getInstancia() {
+		return InstanceHolder.instancia;
+	}
+	
 	public Transito[] FCadastraEstatistica(Transito[] transito) throws IOException{
 		int i;
 
