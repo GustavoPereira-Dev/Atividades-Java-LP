@@ -1,9 +1,9 @@
-package instanciaclasse.extra_biblioteca;
+package instanciaclasse.extra_biblioteca.model1;
 
 abstract class Contato {
 	private int codigoContato;
 	private int codigoUsuario;
-	private String contatoUsuario;
+	protected String contatoUsuario;
 	
 	public Contato(int codigoContato, int codigoUsuario, String contatoUsuario) {
 		this.codigoContato = codigoContato;

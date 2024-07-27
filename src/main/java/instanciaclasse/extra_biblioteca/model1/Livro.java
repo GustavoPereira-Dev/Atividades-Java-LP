@@ -1,4 +1,4 @@
-package instanciaclasse.extra_biblioteca;
+package instanciaclasse.extra_biblioteca.model1;
 
 class Livro {
 	
