@@ -1,4 +1,4 @@
-package instanciaclasse.extra_biblioteca.model1;
+package instanciaclasse.extra_biblioteca.model;
 
 public class Telefone extends Contato {
 	public Telefone(int codigoContato, int codigoUsuario, String telefoneContato) {

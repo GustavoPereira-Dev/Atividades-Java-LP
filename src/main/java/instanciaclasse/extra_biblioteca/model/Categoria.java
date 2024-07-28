@@ -1,4 +1,4 @@
-package instanciaclasse.extra_biblioteca.model1;
+package instanciaclasse.extra_biblioteca.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,10 +16,15 @@ public class Categoria {
 	private String escritorio; 
 	private List<Email> emails; 
 	private List<Telefone> telefones; 
-	private List<String> emprestimos;
+	private List<Emprestimo> emprestimos;
+
+	public Categoria() {
+		this(0,"","","","","","","","", new ArrayList<Email>(),new ArrayList<Telefone>(),new ArrayList<Emprestimo>());
+	}
+	
 	public Categoria(int codigo, String nome, String RG, String CPF, String especializacao, String sexo,
 			String estadoCivil, String nacionalidade, String escritorio, List<Email> emails, List<Telefone> telefones,
-			List<String> emprestimos) {
+			List<Emprestimo> emprestimos) {
 		super();
 		this.codigo = codigo;
 		this.nome = nome;
@@ -100,10 +105,10 @@ public class Categoria {
 	public void setTelefones(Telefone telefone) {
 		this.telefones.add(telefone);
 	}
-	public List<String> getEmprestimos() {
+	public List<Emprestimo> getEmprestimos() {
 		return emprestimos;
 	}
-	public void setEmprestimos(List<String> emprestimos) {
+	public void setEmprestimos(List<Emprestimo> emprestimos) {
 		this.emprestimos = emprestimos;
 	}
 	

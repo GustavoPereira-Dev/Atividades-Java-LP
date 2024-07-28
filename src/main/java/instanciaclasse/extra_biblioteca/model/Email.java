@@ -1,4 +1,4 @@
-package instanciaclasse.extra_biblioteca.model1;
+package instanciaclasse.extra_biblioteca.model;
 
 public class Email extends Contato {
 
