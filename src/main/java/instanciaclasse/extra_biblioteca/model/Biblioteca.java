@@ -48,6 +48,11 @@ public class Biblioteca {
 	public void setCEP(String cEP) {
 		CEP = cEP;
 	}
+	@Override
+	public String toString() {
+		return "Biblioteca [codigoBiblioteca=" + codigoBiblioteca + ", endereco=" + endereco + ", nome=" + nome
+				+ ", CEP=" + CEP + "]";
+	}
 	
 	
 }

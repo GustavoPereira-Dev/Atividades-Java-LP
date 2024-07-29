@@ -97,6 +97,13 @@ public class Livro {
 	public void setISBN(String ISBN) {
 		this.ISBN = ISBN;
 	}
+
+	@Override
+	public String toString() {
+		return "Livro [codigoLivro=" + codigoLivro + ", nome=" + nome + ", autor=" + autor + ", codigoBiblioteca="
+				+ codigoBiblioteca + ", editora=" + editora + ", anoPublicacao=" + anoPublicacao + ", quantExemplares="
+				+ quantExemplares + ", ISBN=" + ISBN + "]";
+	}
 	
 	
 }

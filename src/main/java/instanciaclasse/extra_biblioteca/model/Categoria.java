@@ -5,18 +5,18 @@ import java.util.List;
 
 public class Categoria {
   //atributos
-	private int codigo; 
-	private String nome; 
-	private String RG;
-	private String CPF; 
-	private String especializacao; 
-	private String sexo; 
-	private String estadoCivil; 
-	private String nacionalidade; 
-	private String escritorio; 
-	private List<Email> emails; 
-	private List<Telefone> telefones; 
-	private List<Emprestimo> emprestimos;
+	protected int codigo; 
+	protected String nome; 
+	protected String RG;
+	protected String CPF; 
+	protected String especializacao; 
+	protected String sexo; 
+	protected String estadoCivil; 
+	protected String nacionalidade; 
+	protected String escritorio; 
+	protected List<Email> emails; 
+	protected List<Telefone> telefones; 
+	protected List<Emprestimo> emprestimos;
 
 	public Categoria() {
 		this(0,"","","","","","","","", new ArrayList<Email>(),new ArrayList<Telefone>(),new ArrayList<Emprestimo>());
@@ -25,7 +25,6 @@ public class Categoria {
 	public Categoria(int codigo, String nome, String RG, String CPF, String especializacao, String sexo,
 			String estadoCivil, String nacionalidade, String escritorio, List<Email> emails, List<Telefone> telefones,
 			List<Emprestimo> emprestimos) {
-		super();
 		this.codigo = codigo;
 		this.nome = nome;
 		this.RG = RG;
@@ -35,9 +34,24 @@ public class Categoria {
 		this.estadoCivil = estadoCivil;
 		this.nacionalidade = nacionalidade;
 		this.escritorio = escritorio;
-		this.emails = new ArrayList<>();
-		this.telefones = new ArrayList<>();
-		this.emprestimos = new ArrayList<>();
+		this.emails = emails;
+		this.telefones = telefones;
+		this.emprestimos = emprestimos;
+	}
+	
+	public Categoria(Categoria categoria) {
+		this.codigo = categoria.codigo;
+		this.nome = categoria.nome;
+		this.RG = categoria.RG;
+		this.CPF = categoria.CPF;
+		this.especializacao = categoria.especializacao;
+		this.sexo = categoria.sexo;
+		this.estadoCivil = categoria.estadoCivil;
+		this.nacionalidade = categoria.nacionalidade;
+		this.escritorio = categoria.escritorio;
+		this.emails = categoria.emails;
+		this.telefones = categoria.telefones;
+		this.emprestimos = categoria.emprestimos;
 	}
 	public int getCodigo() {
 		return codigo;
@@ -99,17 +113,40 @@ public class Categoria {
 	public void setEmails(Email email) {
 		this.emails.add(email);
 	}
+	
+	public void setEmails(List<Email> emails) {
+		for(Email e: emails) {
+			this.emails.add(new Email(e));
+		}
+		
+	}
+	
 	public List<Telefone> getTelefones() {
 		return telefones;
 	}
 	public void setTelefones(Telefone telefone) {
 		this.telefones.add(telefone);
 	}
+	
+	public void setTelefones(List<Telefone> telefones) {
+		for(Telefone t: telefones) {
+			this.telefones.add(new Telefone(t));
+		}
+		
+	}
 	public List<Emprestimo> getEmprestimos() {
 		return emprestimos;
 	}
 	public void setEmprestimos(List<Emprestimo> emprestimos) {
 		this.emprestimos = emprestimos;
+	}
+
+	@Override
+	public String toString() {
+		return "[codigo=" + codigo + ", nome=" + nome + ", RG=" + RG + ", CPF=" + CPF + ", especializacao="
+				+ especializacao + ", sexo=" + sexo + ", estadoCivil=" + estadoCivil + ", nacionalidade="
+				+ nacionalidade + ", escritorio=" + escritorio + ", emails=" + emails + ", telefones=" + telefones
+				+ ", emprestimos=" + emprestimos + "]";
 	}
 	
 	

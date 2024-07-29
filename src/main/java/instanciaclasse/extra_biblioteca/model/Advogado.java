@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Advogado extends Categoria{
-	String OAB;
+	private String OAB;
 	
 	public Advogado() {
 		this(0,"","","","","","","","", new ArrayList<Email>(), new ArrayList<Telefone>(), new ArrayList<Emprestimo>(),"");
@@ -20,7 +20,27 @@ public class Advogado extends Categoria{
 		
 	}
 	
-	
+	public Advogado(Advogado advogado) {
+		super(advogado.codigo, advogado.nome, advogado.RG, advogado.CPF, advogado.especializacao, advogado.sexo, advogado.estadoCivil, advogado.nacionalidade, advogado.escritorio, advogado.emails, advogado.telefones,
+				advogado.emprestimos);
+		this.OAB = advogado.OAB;
+	}
+
+	public String getOAB() {
+		return OAB;
+	}
+
+	public void setOAB(String OAB) {
+		this.OAB = OAB;
+	}
+
+	@Override
+	public String toString() {
+		return "[OAB=" + OAB + ", codigo=" + codigo + ", nome=" + nome + ", RG=" + RG + ", CPF=" + CPF
+				+ ", especializacao=" + especializacao + ", sexo=" + sexo + ", estadoCivil=" + estadoCivil
+				+ ", nacionalidade=" + nacionalidade + ", escritorio=" + escritorio + ", emails=" + emails
+				+ ", telefones=" + telefones + ", emprestimos=" + emprestimos + "]";
+	}
 	
 	
 	

@@ -72,6 +72,13 @@ public class LivroExemplar {
 	public void setEstaDisponivel(boolean estaDisponivel) {
 		this.estaDisponivel = estaDisponivel;
 	}
+
+	@Override
+	public String toString() {
+		return "LivroExemplar [codigoExemplar=" + codigoExemplar + ", dataAquisicao=" + dataAquisicao
+				+ ", numeroSequencial=" + numeroSequencial + ", preco=" + preco + ", contratuante=" + contratuante
+				+ ", estaDisponivel=" + estaDisponivel + "]";
+	}
 	
 	
 }

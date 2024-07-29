@@ -83,6 +83,13 @@ public class Emprestimo {
 	public void setLivro(LivroExemplar livro) {
 		this.livro = livro;
 	}
+
+	@Override
+	public String toString() {
+		return "Emprestimo [codigoEmprestimo=" + codigoEmprestimo + ", dataEmprestimo=" + dataEmprestimo
+				+ ", dataDevolucao=" + dataDevolucao + ", contratante=" + contratante + ", responsavel=" + responsavel
+				+ ", multa=" + multa + ", livro=" + livro + "]";
+	}
 	
 	
 	
